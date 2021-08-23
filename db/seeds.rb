@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Article.create({ title: "新しい記事だよ", content: "素晴らしい記事です。これは" })
-Article.create({ title: "とても素晴らしい記事だよ", content: "あああああああああああああああああああああああ" })
+Article.create({ title: '新しい記事だよ', content: '素晴らしい記事です。これは' })
+Article.create({ title: 'とても素晴らしい記事だよ', content: 'あああああああああああああああああああああああ' })
 
 10.times do
   Article.create(
